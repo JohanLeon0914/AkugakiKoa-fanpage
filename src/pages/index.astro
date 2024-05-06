@@ -1,0 +1,22 @@
+---
+import { Carrousel } from '../components/Carrousel';
+import Profile from '../components/Profile.astro';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Akugaki Koa - Fan Page">
+	<main>
+		<div id="inicio" class="pt-[50px]">
+			<Carrousel client:load />
+		</div>
+
+		<div id="perfil">
+			<Profile />
+		</div>
+
+		<div id="lore">
+			LORE
+		</div>
+	</main>
+</Layout>
+
