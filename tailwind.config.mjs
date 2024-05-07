@@ -4,8 +4,10 @@ export default {
 	theme: {
 		colors: {
 			main: '#00001a',
+			main_dark: '#00000a',
 			color_text: '#add8e6',
-			color_text_secund: '#BFFF00'
+			color_text_secund: '#BFFF00',
+			color_back: '#000000'
 		},
 		extend: {
 

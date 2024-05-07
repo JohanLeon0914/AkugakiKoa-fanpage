@@ -25,14 +25,12 @@ export function Carrousel() {
         <img src="/assets/koa1.jpg" className='max-h-[900px] w-full' alt="koa_carrousel" />
       </SwiperSlide>
       <SwiperSlide>
+        <img src="/assets/horario.jpg" className='max-h-[900px] w-full' alt="koa_carrousel" />
+      </SwiperSlide>
+      <SwiperSlide>
         <img src="/assets/koa2.jpg" className='max-h-[900px] w-full' alt="koa_carrousel" />
       </SwiperSlide>
-      <SwiperSlide>
-        <img src="/assets/koa3.jpg" className='max-h-[900px] w-full' alt="koa_carrousel" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src="/assets/koa4.jpg" className='max-h-[900px] w-full' alt="koa_carrousel" />
-      </SwiperSlide>
+      
     </Swiper>
   );
 };
